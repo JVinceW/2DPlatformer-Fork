@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<root>
+<Sprite name="0" width="128" height="92" pivotX="0.515625" pivotY="0.02173913"/>
+<Sprite name="1" width="124" height="90" pivotX="0.516129" pivotY="0.02222222"/>
+<Sprite name="2" width="121" height="90" pivotX="0.5206611" pivotY="0.02222222"/>
+<Sprite name="3" width="120" height="90" pivotX="0.5" pivotY="0.02222222"/>
+<Sprite name="4" width="128" height="90" pivotX="0.4453125" pivotY="0.02222222"/>
+<Sprite name="5" width="124" height="90" pivotX="0.4274194" pivotY="0.02222222"/>
+<Sprite name="6" width="140" height="90" pivotX="0.5" pivotY="0.02222222"/>
+<Sprite name="7" width="137" height="91" pivotX="0.5109489" pivotY="0.02197802"/>
+<Sprite name="8" width="135" height="92" pivotX="0.5111111" pivotY="0.02173913"/>
+<Sprite name="9" width="128" height="93" pivotX="0.515625" pivotY="0.02150536"/>
+<Sprite name="10" width="124" height="93" pivotX="0.516129" pivotY="0.02150536"/>
+<Sprite name="11" width="121" height="93" pivotX="0.5206611" pivotY="0.02150536"/>
+<Sprite name="12" width="120" height="93" pivotX="0.5" pivotY="0.02150536"/>
+<Sprite name="13" width="128" height="93" pivotX="0.4453125" pivotY="0.02150536"/>
+<Sprite name="14" width="124" height="93" pivotX="0.4274194" pivotY="0.02150536"/>
+<Sprite name="15" width="140" height="92" pivotX="0.5" pivotY="0.02173913"/>
+<Sprite name="16" width="137" height="92" pivotX="0.5109489" pivotY="0.02173913"/>
+<Sprite name="17" width="135" height="92" pivotX="0.5111111" pivotY="0.02173913"/>
+</root>

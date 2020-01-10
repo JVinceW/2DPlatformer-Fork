@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<root>
+<Sprite name="0" width="124" height="175" pivotX="0.5564516" pivotY="-0.01142859"/>
+<Sprite name="1" width="298" height="246" pivotX="0.8154362" pivotY="0.004065037"/>
+<Sprite name="2" width="296" height="243" pivotX="0.820946" pivotY="0.01234567"/>
+<Sprite name="3" width="293" height="242" pivotX="0.8293515" pivotY="0.0165289"/>
+<Sprite name="4" width="292" height="237" pivotX="0.8287671" pivotY="0.02109706"/>
+<Sprite name="5" width="276" height="239" pivotX="0.8260869" pivotY="0.02510458"/>
+<Sprite name="6" width="258" height="238" pivotX="0.8178295" pivotY="0.02941179"/>
+<Sprite name="7" width="246" height="234" pivotX="0.7926829" pivotY="0.03418803"/>
+<Sprite name="8" width="492" height="333" pivotX="0.3130081" pivotY="0.1921922"/>
+<Sprite name="9" width="522" height="331" pivotX="0.289272" pivotY="0.1842901"/>
+<Sprite name="10" width="457" height="313" pivotX="0.1925602" pivotY="0.1757188"/>
+<Sprite name="11" width="440" height="299" pivotX="0.1818182" pivotY="0.1605351"/>
+<Sprite name="12" width="541" height="294" pivotX="0.142329" pivotY="0.1462585"/>
+<Sprite name="13" width="743" height="283" pivotX="0.3162853" pivotY="0.2756184"/>
+<Sprite name="14" width="753" height="287" pivotX="0.312085" pivotY="0.2299652"/>
+<Sprite name="15" width="772" height="286" pivotX="0.3212435" pivotY="0.2307692"/>
+<Sprite name="16" width="734" height="274" pivotX="0.3174387" pivotY="0.2408759"/>
+<Sprite name="17" width="704" height="274" pivotX="0.3309659" pivotY="0.2408759"/>
+<Sprite name="18" width="705" height="207" pivotX="0.3347518" pivotY="0.07246375"/>
+<Sprite name="19" width="672" height="211" pivotX="0.3110119" pivotY="0.03317535"/>
+<Sprite name="20" width="183" height="207" pivotX="0.5300547" pivotY="0.0241546"/>
+<Sprite name="21" width="184" height="188" pivotX="0.5326087" pivotY="0.0106383"/>
+</root>

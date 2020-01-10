@@ -1,0 +1,33 @@
+{
+    "lstEquipment": [{
+            "ItemID": 1001,
+            "Name": "Book",
+            "icon": {
+				"instanceID": 0
+			},
+            "isDefaultItem": false,
+            "quanlity": 0,
+            "Description": "Day la 1 cuon sach than bi",
+			"equipSlot": 0,
+            "Heath": 50,
+            "Damage": 10,
+            "Defense": 20,
+            "Crit": 0
+        },
+		{
+            "ItemID": 1002,
+            "Name": "Book",
+            "icon": {
+				"instanceID": 0
+			},
+            "isDefaultItem": false,
+            "quanlity": 0,
+            "Description": "Day la 1 cuon sach than bi",
+			"equipSlot": 0,
+            "Heath": 50,
+            "Damage": 10,
+            "Defense": 20,
+            "Crit": 0
+        }
+    ]
+}

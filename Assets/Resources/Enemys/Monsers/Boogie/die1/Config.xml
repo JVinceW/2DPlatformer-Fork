@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<root>
+<Sprite name="0" width="104" height="100" pivotX="0.5384616" pivotY="-0.17"/>
+<Sprite name="1" width="123" height="106" pivotX="0.5284553" pivotY="-0.1320754"/>
+<Sprite name="2" width="133" height="117" pivotX="0.5338346" pivotY="-0.09401715"/>
+<Sprite name="3" width="141" height="147" pivotX="0.5319149" pivotY="0"/>
+<Sprite name="4" width="14" height="156" pivotX="0.9285714" pivotY="0"/>
+</root>

@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 1fe7875a71898354391d04e89a9d0526
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3442253667534445296
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_7
+  - first:
+      213: 7224486049563867039
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_11
+  - first:
+      213: -371403992503591056
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_12
+  - first:
+      213: 4728891238280675625
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_16
+  - first:
+      213: 2616911901975765420
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_17
+  - first:
+      213: 7263764866995066312
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_20
+  - first:
+      213: -4552957135707410230
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_21
+  - first:
+      213: 3433898501910090166
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_22
+  - first:
+      213: -4589370404709876957
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_28
+  - first:
+      213: -3714227671233614639
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_30
+  - first:
+      213: -7410640490162699632
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_31
+  - first:
+      213: -3724807328038687492
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_32
+  - first:
+      213: 8441903842263306491
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_33
+  - first:
+      213: 2814756912833265084
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_37
+  - first:
+      213: -757998308496031406
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_0
+  - first:
+      213: 8259449212371792466
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_1
+  - first:
+      213: 8720186069222321620
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_2
+  - first:
+      213: 5356386028136988842
+    second: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+      (1)_3
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 424
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b16a3383083ea409bf570aea88484d
+      internalID: -3442253667534445296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 424
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f936b18f275204e49bfd2b0fdd7543fe
+      internalID: 7224486049563867039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_12
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 424
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b891dfb203e2c42a7d3c0af6850cd8
+      internalID: -371403992503591056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 424
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f502a26a8fbb4e4ca6b40a7cc70e7ae
+      internalID: 4728891238280675625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_17
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 425
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3124b3385f442df4e9a55f44e93c925d
+      internalID: 2616911901975765420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 423
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37414532fda34124bb70bb85040e0439
+      internalID: 7263764866995066312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 422
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8234f84f5bedd499cf1f5b20b50768
+      internalID: -4552957135707410230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 424
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9520f0bc89d32944b8a5b2adbd1bbf48
+      internalID: 3433898501910090166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 443
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dbd39a5272b864bb93da1bd7d7e2ee
+      internalID: -4589370404709876957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 418
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da26fbce1a097b4580ebde8481f4fb2
+      internalID: -3714227671233614639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_31
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 420
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5646e7756e7802147a0e1a1e53cec6d8
+      internalID: -7410640490162699632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_32
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 422
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205c078764b480f4fba1d9610712b0d2
+      internalID: -3724807328038687492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_33
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 422
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732a368402e21ff4b9c1851f60510ddb
+      internalID: 8441903842263306491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 434
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaba482c869387e4fb79f7606e3b909e
+      internalID: 2814756912833265084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_0
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 423
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05e2770d277299488cc453ba526eb9e
+      internalID: -757998308496031406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 429
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d023a98d9f95f9141bf0bc284548466d
+      internalID: 8259449212371792466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 428
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f6e96d9d4d58f4f9b6b026069e410b
+      internalID: 8720186069222321620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Cuphead Dont Deal With the Devil - Player Dust Overworld
+        (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 427
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07056ea249ea1e4ca1669d1d57d9d9f
+      internalID: 5356386028136988842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 28d609ad6ecf5e142bbe276797d75ef5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

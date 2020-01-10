@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<root>
+<Sprite name="0" width="144" height="173" pivotX="0.4722222" pivotY="0.01734102"/>
+<Sprite name="1" width="140" height="162" pivotX="0.4571429" pivotY="0.02469134"/>
+<Sprite name="2" width="345" height="362" pivotX="0.4666667" pivotY="0.262431"/>
+<Sprite name="3" width="342" height="359" pivotX="0.4619883" pivotY="0.2562674"/>
+<Sprite name="4" width="306" height="340" pivotX="0.5" pivotY="0.2323529"/>
+<Sprite name="5" width="260" height="249" pivotX="0.5384616" pivotY="0.008032143"/>
+<Sprite name="6" width="223" height="244" pivotX="0.529148" pivotY="0.004098356"/>
+<Sprite name="7" width="151" height="201" pivotX="0.5033113" pivotY="0"/>
+<Sprite name="8" width="153" height="181" pivotX="0.509804" pivotY="0.005524874"/>
+<Sprite name="9" width="152" height="175" pivotX="0.5131579" pivotY="0.01142859"/>
+<Sprite name="10" width="154" height="161" pivotX="0.5064935" pivotY="0.01242238"/>
+<Sprite name="11" width="147" height="162" pivotX="0.4897959" pivotY="0.01234567"/>
+<Sprite name="12" width="144" height="173" pivotX="0.4722222" pivotY="0.01734102"/>
+</root>

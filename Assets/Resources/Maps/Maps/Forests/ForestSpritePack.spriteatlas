@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ForestSpritePack
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: ffa06950111091740883d6ed92c2d2c5, type: 3}
+    - {fileID: 2800000, guid: 718e16d229cb2744b8b5471947899ea9, type: 3}
+    - {fileID: 2800000, guid: f2bbe5bb8fc0d8e46bd5bb1527797598, type: 3}
+    - {fileID: 2800000, guid: 749ce6ff2fbe93f4db34f2847e8271f0, type: 3}
+    - {fileID: 2800000, guid: d4714bdc59ec08646a54ac1fe1c3d763, type: 3}
+    - {fileID: 2800000, guid: 4427517a9a1b85f419570a7c2dba49c3, type: 3}
+    - {fileID: 2800000, guid: 4fb534c490b1cfa499638fa00d9ebc21, type: 3}
+    - {fileID: 2800000, guid: 29847e58651cb2c47aaa6ef882fa4635, type: 3}
+    - {fileID: 2800000, guid: d551814866d6a1545bf5d9ee20fd2133, type: 3}
+    - {fileID: 2800000, guid: 695fc1ba7ebfdad4c92b883de4e6780c, type: 3}
+    - {fileID: 2800000, guid: 0f7c29d5432f7e44eba6a5a97596ad6e, type: 3}
+    - {fileID: 2800000, guid: f12e56207579def4ea382421cf629654, type: 3}
+    - {fileID: 2800000, guid: 9cb5dcfb71acb1d4cb49aa08836c6667, type: 3}
+    - {fileID: 2800000, guid: 3c5b163ba21b0a2449bb7b3aea1e3903, type: 3}
+    totalSpriteSurfaceArea: 26545005
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f12e56207579def4ea382421cf629654, type: 3}
+  - {fileID: 21300000, guid: ffa06950111091740883d6ed92c2d2c5, type: 3}
+  - {fileID: 21300000, guid: 718e16d229cb2744b8b5471947899ea9, type: 3}
+  - {fileID: 21300000, guid: 4fb534c490b1cfa499638fa00d9ebc21, type: 3}
+  - {fileID: 21300000, guid: 0f7c29d5432f7e44eba6a5a97596ad6e, type: 3}
+  - {fileID: 21300000, guid: d551814866d6a1545bf5d9ee20fd2133, type: 3}
+  - {fileID: 21300000, guid: 29847e58651cb2c47aaa6ef882fa4635, type: 3}
+  - {fileID: 21300000, guid: 4427517a9a1b85f419570a7c2dba49c3, type: 3}
+  - {fileID: 21300000, guid: 695fc1ba7ebfdad4c92b883de4e6780c, type: 3}
+  - {fileID: 21300000, guid: 3c5b163ba21b0a2449bb7b3aea1e3903, type: 3}
+  - {fileID: 21300000, guid: f2bbe5bb8fc0d8e46bd5bb1527797598, type: 3}
+  - {fileID: 21300000, guid: 9cb5dcfb71acb1d4cb49aa08836c6667, type: 3}
+  - {fileID: 21300000, guid: d4714bdc59ec08646a54ac1fe1c3d763, type: 3}
+  - {fileID: 21300000, guid: 749ce6ff2fbe93f4db34f2847e8271f0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Map_13
+  - Map_1
+  - Map_2
+  - Map_8
+  - Map_12
+  - Map_10
+  - Map_9
+  - Map_7
+  - Map_11
+  - Maps_16
+  - Map_4
+  - Map_14
+  - Map_6
+  - Map_5
+  m_Tag: ForestSpritePack
+  m_IsVariant: 0

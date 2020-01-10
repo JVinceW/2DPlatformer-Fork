@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Boss
+  - Gate
+  - PlayerAttack
+  - Bullet
+  - Debug
+  - FxTemporaire
+  - BulletEnemy
+  - PlayerGround
+  - Cursor
+  - GUIMenu
+  - GUIOption
+  - LoadingScene
+  - GUIPlayer
+  - GUI
+  - GameManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3289380791
+    locked: 0
+  - name: Environment
+    uniqueID: 3735269099
+    locked: 0
+  - name: Ground
+    uniqueID: 1486848489
+    locked: 0
+  - name: Environment1
+    uniqueID: 1016622375
+    locked: 0
+  - name: Enemy
+    uniqueID: 1828327039
+    locked: 0
+  - name: Player
+    uniqueID: 4064533309
+    locked: 0
