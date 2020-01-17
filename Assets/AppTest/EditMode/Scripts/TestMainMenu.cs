@@ -1,26 +1,30 @@
-﻿using System.Collections;
-using NUnit.Framework;
-using UnityEngine.TestTools;
+﻿using NUnit.Framework;
 
-namespace AppTest.Scripts
-{
-    public class TestMainMenu
-    {
-        // A Test behaves as an ordinary method
-        [Test]
-        public void TestMainMenuSimplePasses()
-        {
-            // Use the Assert class to test conditions
+namespace AppTest.EditMode.Scripts {
+    public class TestMainMenu {
+        
+        private int _sampleTest = 0;
+
+        [SetUp]
+        public void InitTest() {
+            _sampleTest = 10;
         }
 
-        // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-        // `yield return null;` to skip a frame.
-        [UnityTest]
-        public IEnumerator TestMainMenuWithEnumeratorPasses()
-        {
-            // Use the Assert class to test conditions.
-            // Use yield to skip a frame.
-            yield return null;
+        [TearDown]
+        public void FinishedTest() {
+            _sampleTest = 0;
+        }
+
+        [Test]
+        public void TestMainMenuSimplePasses() {
+            int actual = 5;
+            Assert.That(actual == _sampleTest);
+        }
+        
+        [Test]
+        public void TestMainMenuSimplePasses1() {
+            int actual = 10;
+            Assert.That(actual == _sampleTest);
         }
     }
 }
