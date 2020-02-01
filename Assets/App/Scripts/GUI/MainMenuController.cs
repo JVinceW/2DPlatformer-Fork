@@ -1,7 +1,8 @@
+using System;
 using System.Collections;
-using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace App.Scripts.GUI {
@@ -16,9 +17,16 @@ namespace App.Scripts.GUI {
         [Header("Menu Button Setting")]
         [SerializeField]
         private MenuButton[] m_menuButtons;
-
+        
+        [Space]
         [SerializeField]
         private float m_btnSelectThreshold = 0.2f;
+
+        [SerializeField]
+        private GameObject m_optionMenu;
+
+        [SerializeField]
+        private Transform m_mainCanvas;
 
         [Header("Other Settings")]
         [SerializeField]
@@ -30,6 +38,8 @@ namespace App.Scripts.GUI {
         private int m_nowSelectingIdx = 0;
 
         private bool m_canSelect = true;
+
+        private OptionController m_optionController;
 
         private void Start() {
             SetSelectingButton();
@@ -87,15 +97,15 @@ namespace App.Scripts.GUI {
         }
 
         public void OnClickStartGame() {
-            Debug.Log("Clicked start game");
+            SceneManager.LoadSceneAsync(1);
         }
 
         public void OnClickOptions() {
-            Debug.Log("Clicked options");
+            throw new NotImplementedException();
         }
 
         public void OnClickExitGame() {
-            Debug.Log("Clicked exit game");
+            Application.Quit();
         }
     }
 }
