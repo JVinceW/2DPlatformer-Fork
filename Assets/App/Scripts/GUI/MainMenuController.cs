@@ -1,5 +1,5 @@
-using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -15,14 +15,18 @@ namespace App.Scripts.GUI {
 
         [Header("Menu Button Setting")]
         [SerializeField]
-        private Button[] m_menuButtons;
+        private MenuButton[] m_menuButtons;
 
         [SerializeField]
         private float m_btnSelectThreshold = 0.2f;
 
-        private Button StartGameBtn => m_menuButtons[0];
-        private Button OptionBtn => m_menuButtons[1];
-        private Button ExitGameBtn => m_menuButtons[2];
+        [Header("Other Settings")]
+        [SerializeField]
+        private Text m_versionTxt;
+
+        private MenuButton StartGameBtn => m_menuButtons[0];
+        private MenuButton OptionBtn => m_menuButtons[1];
+        private MenuButton ExitGameBtn => m_menuButtons[2];
         private int m_nowSelectingIdx = 0;
 
         private bool m_canSelect = true;
@@ -70,18 +74,16 @@ namespace App.Scripts.GUI {
             m_canSelect = true;
         }
 
-        private void MoveCursor() {
-            
-        }
-        
         public void SetSelectingButton() {
             var eventData = EventSystem.current;
             foreach (var btn in m_menuButtons) {
-                btn.OnPointerExit(new PointerEventData(eventData));
+                btn.Button.OnPointerExit(new PointerEventData(eventData));
+                btn.SetCursor(false);
             }
 
             var selecting = m_menuButtons[m_nowSelectingIdx];
-            selecting.OnPointerEnter(new PointerEventData(eventData));
+            selecting.Button.OnPointerEnter(new PointerEventData(eventData));
+            selecting.SetCursor(true);
         }
 
         public void OnClickStartGame() {
