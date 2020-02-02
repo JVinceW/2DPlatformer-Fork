@@ -2,6 +2,7 @@ using App.Scripts.Common;
 using GameSystem.Common;
 using GameSystem.Core.Interfaces;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace GameSystem.Core {
     /// <summary>
@@ -19,6 +20,7 @@ namespace GameSystem.Core {
         private string _topScenePath = "";
 
         private void Start() {
+            InitAddressable();
             var components = FindObjectsOfType<MonoBehaviour>();
             foreach (var component in components) {
                 var callback = component as IOnAppLaunch;
@@ -43,6 +45,12 @@ namespace GameSystem.Core {
             if (!Mathf.Approximately(Time.timeScale, _timeScale)) {
                 Time.timeScale = _timeScale;
             }
+        }
+
+        private void InitAddressable() {
+            Addressables.InitializeAsync().Completed += handle => {
+                Debug.unityLogger.Log("[ApplicationManager]", "Finished Init Addressable");
+            };
         }
 
         private void OnApplicationQuit() {
