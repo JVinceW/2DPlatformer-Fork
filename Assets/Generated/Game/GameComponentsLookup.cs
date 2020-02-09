@@ -8,15 +8,15 @@
 //------------------------------------------------------------------------------
 public static class GameComponentsLookup {
 
-    public const int AppScriptsECSDebugMessage = 0;
+    public const int AppScriptsECSHelloWorldDebugMessage = 0;
 
     public const int TotalComponents = 1;
 
     public static readonly string[] componentNames = {
-        "AppScriptsECSDebugMessage"
+        "AppScriptsECSHelloWorldDebugMessage"
     };
 
     public static readonly System.Type[] componentTypes = {
-        typeof(App.Scripts.ECS.DebugMessageComponent)
+        typeof(App.Scripts.ECS.HelloWorld.DebugMessageComponent)
     };
 }

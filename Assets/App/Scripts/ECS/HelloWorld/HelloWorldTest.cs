@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace App.Scripts.ECS {
+namespace App.Scripts.ECS.HelloWorld {
     public class HelloWorldTest : MonoBehaviour {
         private Entitas.Systems m_systems;
 

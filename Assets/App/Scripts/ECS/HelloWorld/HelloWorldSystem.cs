@@ -1,6 +1,6 @@
 using Entitas;
 
-namespace App.Scripts.ECS {
+namespace App.Scripts.ECS.HelloWorld {
     public class HelloWorldSystem : IInitializeSystem {
         private GameContext m_context;
 
@@ -9,7 +9,7 @@ namespace App.Scripts.ECS {
         }
 
         public void Initialize() {
-            m_context.CreateEntity().AddAppScriptsECSDebugMessage("Hello World");
+            m_context.CreateEntity().AddAppScriptsECSHelloWorldDebugMessage("Hello World");
         }
     }
 }

@@ -1,6 +1,6 @@
 using Entitas;
 
-namespace App.Scripts.ECS {
+namespace App.Scripts.ECS.HelloWorld {
     public class TutorialFeature : Feature {
         public TutorialFeature(Contexts contexts) : base("Tut System") {
             Add(new DebugMessageSystem(contexts));

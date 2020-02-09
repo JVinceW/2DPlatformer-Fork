@@ -1,6 +1,6 @@
 using Entitas;
 
-namespace App.Scripts.ECS {
+namespace App.Scripts.ECS.HelloWorld {
     public class DebugMessageCleanupSystem  : ICleanupSystem {
         // ReSharper disable once PrivateFieldCanBeConvertedToLocalVariable
         private readonly GameContext m_gameContext;
@@ -8,7 +8,7 @@ namespace App.Scripts.ECS {
 
         public DebugMessageCleanupSystem(Contexts gameContext) {
             m_gameContext = gameContext.game;
-            m_grp = m_gameContext.GetGroup(GameMatcher.AppScriptsECSDebugMessage);
+            m_grp = m_gameContext.GetGroup(GameMatcher.AppScriptsECSHelloWorldDebugMessage);
         }
 
         public void Cleanup() {
