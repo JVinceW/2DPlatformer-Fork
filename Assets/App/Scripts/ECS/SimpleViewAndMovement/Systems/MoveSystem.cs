@@ -33,6 +33,7 @@ public class MoveSystem : IExecuteSystem, ICleanupSystem {
     public void Cleanup() {
         foreach (var e in m_moveComplete.GetEntities()) {
             e.isMoveComplete = false;
+            e.isDestroyed = true;
         }
     }
 }

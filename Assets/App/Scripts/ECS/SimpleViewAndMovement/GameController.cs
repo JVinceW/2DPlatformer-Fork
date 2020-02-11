@@ -21,7 +21,8 @@ namespace App.Scripts.ECS.SimpleViewAndMovement {
             return new Feature("Systems")
                 .Add(new ViewSystemFeature(contexts))
                 .Add(new InputSystemFeature(contexts))
-                .Add(new MovementSystemFeature(contexts));
+                .Add(new MovementSystemFeature(contexts))
+                .Add(new MultiDestroySystem(contexts));
         }
     }
 }

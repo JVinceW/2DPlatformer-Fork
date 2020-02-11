@@ -19,7 +19,7 @@ namespace App.Scripts.ECS.SimpleViewAndMovement.Systems {
 
         protected override void Execute(List<MoveTutGameEntity> entities) {
             foreach (var e in entities) {
-                var transform = e.view.ViewGameObject.transform;
+                var transform = e.view.GameObject.transform;
                 transform.position = e.position.Value;
             }
         }

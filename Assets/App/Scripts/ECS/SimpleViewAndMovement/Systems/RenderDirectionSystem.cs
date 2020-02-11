@@ -19,7 +19,7 @@ public class RenderDirectionSystem : ReactiveSystem<MoveTutGameEntity> {
 
     protected override void Execute(List<MoveTutGameEntity> entities) {
         foreach (var e in entities) {
-            var trans = e.view.ViewGameObject.transform;
+            var trans = e.view.GameObject.transform;
             var angle = e.direction.Value;
             trans.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         }

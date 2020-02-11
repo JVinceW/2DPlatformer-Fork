@@ -1,10 +1,10 @@
 using Entitas;
 using UnityEngine;
 
-[MoveTutGame]
+[MoveTutGame, Input]
 // ReSharper disable once CheckNamespace
 public class ViewComponent : IComponent {
-    public GameObject ViewGameObject;
+    public GameObject GameObject;
 }
 
 [MoveTutGame]

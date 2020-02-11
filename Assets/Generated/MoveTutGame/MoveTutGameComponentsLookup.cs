@@ -8,17 +8,19 @@
 //------------------------------------------------------------------------------
 public static class MoveTutGameComponentsLookup {
 
-    public const int Direction = 0;
-    public const int MoveComplete = 1;
-    public const int Move = 2;
-    public const int Mover = 3;
-    public const int Position = 4;
-    public const int Sprite = 5;
-    public const int View = 6;
+    public const int Destroyed = 0;
+    public const int Direction = 1;
+    public const int MoveComplete = 2;
+    public const int Move = 3;
+    public const int Mover = 4;
+    public const int Position = 5;
+    public const int Sprite = 6;
+    public const int View = 7;
 
-    public const int TotalComponents = 7;
+    public const int TotalComponents = 8;
 
     public static readonly string[] componentNames = {
+        "Destroyed",
         "Direction",
         "MoveComplete",
         "Move",
@@ -29,6 +31,7 @@ public static class MoveTutGameComponentsLookup {
     };
 
     public static readonly System.Type[] componentTypes = {
+        typeof(DestroyedComponent),
         typeof(DirectionComponent),
         typeof(MoveCompleteComponent),
         typeof(MoveComponent),

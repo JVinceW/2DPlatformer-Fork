@@ -16,7 +16,7 @@ namespace App.Scripts.ECS.SimpleViewAndMovement.Systems {
 
         protected override void Execute(List<MoveTutGameEntity> entities) {
             foreach (var entity in entities) {
-                GameObject go = entity.view.ViewGameObject;
+                GameObject go = entity.view.GameObject;
                 var renderer = go.GetComponent<SpriteRenderer>();
                 if (renderer == null) {
                     renderer = go.AddComponent<SpriteRenderer>();
