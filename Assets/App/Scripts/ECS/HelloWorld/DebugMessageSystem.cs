@@ -5,16 +5,16 @@ using UnityEngine;
 namespace App.Scripts.ECS.HelloWorld {
     public class DebugMessageSystem : ReactiveSystem<GameEntity> {
         protected override ICollector<GameEntity> GetTrigger(IContext<GameEntity> context) {
-            return context.CreateCollector(GameMatcher.AppScriptsECSHelloWorldDebugMessage);
+            return context.CreateCollector(GameMatcher.DebugMessage);
         }
 
         protected override bool Filter(GameEntity entity) {
-            return entity.hasAppScriptsECSHelloWorldDebugMessage;
+            return entity.hasDebugMessage;
         }
 
         protected override void Execute(List<GameEntity> entities) {
             foreach (var entity in entities) {
-                Debug.Log(entity.appScriptsECSHelloWorldDebugMessage.Message);
+                Debug.Log(entity.debugMessage.Message);
             }
         }
 

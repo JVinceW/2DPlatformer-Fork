@@ -8,25 +8,25 @@
 //------------------------------------------------------------------------------
 public partial class GameEntity {
 
-    public App.Scripts.ECS.HelloWorld.DebugMessageComponent appScriptsECSHelloWorldDebugMessage { get { return (App.Scripts.ECS.HelloWorld.DebugMessageComponent)GetComponent(GameComponentsLookup.AppScriptsECSHelloWorldDebugMessage); } }
-    public bool hasAppScriptsECSHelloWorldDebugMessage { get { return HasComponent(GameComponentsLookup.AppScriptsECSHelloWorldDebugMessage); } }
+    public App.Scripts.ECS.HelloWorld.DebugMessageComponent debugMessage { get { return (App.Scripts.ECS.HelloWorld.DebugMessageComponent)GetComponent(GameComponentsLookup.DebugMessage); } }
+    public bool hasDebugMessage { get { return HasComponent(GameComponentsLookup.DebugMessage); } }
 
-    public void AddAppScriptsECSHelloWorldDebugMessage(string newMessage) {
-        var index = GameComponentsLookup.AppScriptsECSHelloWorldDebugMessage;
+    public void AddDebugMessage(string newMessage) {
+        var index = GameComponentsLookup.DebugMessage;
         var component = (App.Scripts.ECS.HelloWorld.DebugMessageComponent)CreateComponent(index, typeof(App.Scripts.ECS.HelloWorld.DebugMessageComponent));
         component.Message = newMessage;
         AddComponent(index, component);
     }
 
-    public void ReplaceAppScriptsECSHelloWorldDebugMessage(string newMessage) {
-        var index = GameComponentsLookup.AppScriptsECSHelloWorldDebugMessage;
+    public void ReplaceDebugMessage(string newMessage) {
+        var index = GameComponentsLookup.DebugMessage;
         var component = (App.Scripts.ECS.HelloWorld.DebugMessageComponent)CreateComponent(index, typeof(App.Scripts.ECS.HelloWorld.DebugMessageComponent));
         component.Message = newMessage;
         ReplaceComponent(index, component);
     }
 
-    public void RemoveAppScriptsECSHelloWorldDebugMessage() {
-        RemoveComponent(GameComponentsLookup.AppScriptsECSHelloWorldDebugMessage);
+    public void RemoveDebugMessage() {
+        RemoveComponent(GameComponentsLookup.DebugMessage);
     }
 }
 
@@ -40,17 +40,17 @@ public partial class GameEntity {
 //------------------------------------------------------------------------------
 public sealed partial class GameMatcher {
 
-    static Entitas.IMatcher<GameEntity> _matcherAppScriptsECSHelloWorldDebugMessage;
+    static Entitas.IMatcher<GameEntity> _matcherDebugMessage;
 
-    public static Entitas.IMatcher<GameEntity> AppScriptsECSHelloWorldDebugMessage {
+    public static Entitas.IMatcher<GameEntity> DebugMessage {
         get {
-            if (_matcherAppScriptsECSHelloWorldDebugMessage == null) {
-                var matcher = (Entitas.Matcher<GameEntity>)Entitas.Matcher<GameEntity>.AllOf(GameComponentsLookup.AppScriptsECSHelloWorldDebugMessage);
+            if (_matcherDebugMessage == null) {
+                var matcher = (Entitas.Matcher<GameEntity>)Entitas.Matcher<GameEntity>.AllOf(GameComponentsLookup.DebugMessage);
                 matcher.componentNames = GameComponentsLookup.componentNames;
-                _matcherAppScriptsECSHelloWorldDebugMessage = matcher;
+                _matcherDebugMessage = matcher;
             }
 
-            return _matcherAppScriptsECSHelloWorldDebugMessage;
+            return _matcherDebugMessage;
         }
     }
 }

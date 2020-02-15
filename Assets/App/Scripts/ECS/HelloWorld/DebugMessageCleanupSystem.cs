@@ -8,7 +8,7 @@ namespace App.Scripts.ECS.HelloWorld {
 
         public DebugMessageCleanupSystem(Contexts gameContext) {
             m_gameContext = gameContext.game;
-            m_grp = m_gameContext.GetGroup(GameMatcher.AppScriptsECSHelloWorldDebugMessage);
+            m_grp = m_gameContext.GetGroup(GameMatcher.DebugMessage);
         }
 
         public void Cleanup() {

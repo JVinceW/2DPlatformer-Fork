@@ -9,7 +9,7 @@ namespace App.Scripts.ECS.HelloWorld {
         }
 
         public void Initialize() {
-            m_context.CreateEntity().AddAppScriptsECSHelloWorldDebugMessage("Hello World");
+            m_context.CreateEntity().AddDebugMessage("Hello World");
         }
     }
 }

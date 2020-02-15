@@ -1,48 +1,51 @@
 using Entitas;
-using UnityEngine;
 
-public class EmitInputSystem : IInitializeSystem, IExecuteSystem {
-    private readonly InputContext m_context;
-    private InputEntity m_leftInputEntity;
-    private InputEntity m_rightInputEntity;
-        
+namespace App.Scripts.ECS.SimpleViewAndMovement.Systems {
+    public class EmitInputSystem : IInitializeSystem, IExecuteSystem {
+        private readonly InputContext m_inputContext;
+        private readonly Contexts m_contexts;
 
-    public EmitInputSystem(Contexts contexts) {
-        m_context = contexts.input;
-    }
-    
-    public void Initialize() {
-        m_context.isLeftMouse = true;
-        m_leftInputEntity = m_context.leftMouseEntity;
+        private InputEntity m_leftInputEntity;
+        private InputEntity m_rightInputEntity;
 
-        m_context.isRightMouse = true;
-        m_rightInputEntity = m_context.rightMouseEntity;
-    }
+        public EmitInputSystem(Contexts contexts) {
+            m_contexts = contexts;
+            m_inputContext = contexts.input;
+        }
 
-    public void Execute() {
-        if (Camera.main != null) {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (Input.GetMouseButtonDown(0)) {
+        public void Initialize() {
+            m_inputContext.isLeftMouse = true;
+            m_leftInputEntity = m_inputContext.leftMouseEntity;
+
+            m_inputContext.isRightMouse = true;
+            m_rightInputEntity = m_inputContext.rightMouseEntity;
+        }
+
+        public void Execute() {
+            var cameraService = m_contexts.moveTutGame.cameraService.CameraService;
+            var inputService = m_contexts.input.inputService.InputServices;
+            var mousePos = cameraService.ScreenToWorldPoint(inputService.MousePosition);
+            if (inputService.GetMouseButtonDown(0)) {
                 m_leftInputEntity.ReplaceMouseDown(mousePos);
             }
 
-            if (Input.GetMouseButton(0)) {
+            if (inputService.GetMouseButton(0)) {
                 m_leftInputEntity.ReplaceMousePosition(mousePos);
             }
 
-            if (Input.GetMouseButtonUp(0)) {
+            if (inputService.GetMouseButtonUp(0)) {
                 m_leftInputEntity.ReplaceMouseUp(mousePos);
             }
 
-            if (Input.GetMouseButtonDown(1)) {
+            if (inputService.GetMouseButtonDown(1)) {
                 m_rightInputEntity.ReplaceMouseDown(mousePos);
             }
 
-            if (Input.GetMouseButton(1)) {
+            if (inputService.GetMouseButton(1)) {
                 m_rightInputEntity.ReplaceMousePosition(mousePos);
             }
 
-            if (Input.GetMouseButtonUp(1)) {
+            if (inputService.GetMouseButtonUp(1)) {
                 m_rightInputEntity.ReplaceMouseUp(mousePos);
             }
         }

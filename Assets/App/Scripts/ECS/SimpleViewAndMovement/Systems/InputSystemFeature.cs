@@ -1,3 +1,4 @@
+using App.Scripts.ECS.SimpleViewAndMovement.Systems;
 using Entitas;
 
 // ReSharper disable once CheckNamespace

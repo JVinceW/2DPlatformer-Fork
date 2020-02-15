@@ -8,17 +8,19 @@
 //------------------------------------------------------------------------------
 public static class InputComponentsLookup {
 
-    public const int Destroyed = 0;
-    public const int LeftMouse = 1;
-    public const int MouseDown = 2;
-    public const int MousePosition = 3;
-    public const int MouseUp = 4;
-    public const int RightMouse = 5;
-    public const int View = 6;
+    public const int InputService = 0;
+    public const int Destroyed = 1;
+    public const int LeftMouse = 2;
+    public const int MouseDown = 3;
+    public const int MousePosition = 4;
+    public const int MouseUp = 5;
+    public const int RightMouse = 6;
+    public const int View = 7;
 
-    public const int TotalComponents = 7;
+    public const int TotalComponents = 8;
 
     public static readonly string[] componentNames = {
+        "InputService",
         "Destroyed",
         "LeftMouse",
         "MouseDown",
@@ -29,6 +31,7 @@ public static class InputComponentsLookup {
     };
 
     public static readonly System.Type[] componentTypes = {
+        typeof(App.Scripts.ECS.SimpleViewAndMovement.Components.InputServiceComponent),
         typeof(DestroyedComponent),
         typeof(LeftMouseComponent),
         typeof(MouseDownComponent),

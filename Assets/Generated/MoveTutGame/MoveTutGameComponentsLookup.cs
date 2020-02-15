@@ -8,18 +8,20 @@
 //------------------------------------------------------------------------------
 public static class MoveTutGameComponentsLookup {
 
-    public const int Destroyed = 0;
-    public const int Direction = 1;
-    public const int MoveComplete = 2;
-    public const int Move = 3;
-    public const int Mover = 4;
-    public const int Position = 5;
-    public const int Sprite = 6;
-    public const int View = 7;
+    public const int CameraService = 0;
+    public const int Destroyed = 1;
+    public const int Direction = 2;
+    public const int MoveComplete = 3;
+    public const int Move = 4;
+    public const int Mover = 5;
+    public const int Position = 6;
+    public const int Sprite = 7;
+    public const int View = 8;
 
-    public const int TotalComponents = 8;
+    public const int TotalComponents = 9;
 
     public static readonly string[] componentNames = {
+        "CameraService",
         "Destroyed",
         "Direction",
         "MoveComplete",
@@ -31,6 +33,7 @@ public static class MoveTutGameComponentsLookup {
     };
 
     public static readonly System.Type[] componentTypes = {
+        typeof(App.Scripts.ECS.SimpleViewAndMovement.Components.CameraServiceComponent),
         typeof(DestroyedComponent),
         typeof(DirectionComponent),
         typeof(MoveCompleteComponent),
