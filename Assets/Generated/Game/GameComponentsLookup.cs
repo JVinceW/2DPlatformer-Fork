@@ -8,18 +8,15 @@
 //------------------------------------------------------------------------------
 public static class GameComponentsLookup {
 
-    public const int DebugMessage = 0;
-    public const int CameraService = 1;
+    public const int CameraService = 0;
 
-    public const int TotalComponents = 2;
+    public const int TotalComponents = 1;
 
     public static readonly string[] componentNames = {
-        "DebugMessage",
         "CameraService"
     };
 
     public static readonly System.Type[] componentTypes = {
-        typeof(App.Scripts.ECS.HelloWorld.DebugMessageComponent),
         typeof(App.Scripts.ECS.SimpleViewAndMovement.Components.CameraServiceComponent)
     };
 }
